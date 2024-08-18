@@ -1,727 +1,0 @@
-[03/01 10:42:55 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0012100.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0012100_demo', video_input=None, webcam=False)
-[03/01 10:42:56 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:42:56 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:03 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0012100.png: detected 2 instances in 4.42s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.71s/it]100%|██████████| 1/1 [00:04<00:00,  4.72s/it]
-[03/01 10:43:08 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0070586.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0070586_demo', video_input=None, webcam=False)
-[03/01 10:43:09 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:09 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:14 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0070586.png: detected 2 instances in 3.94s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.99s/it]100%|██████████| 1/1 [00:03<00:00,  3.99s/it]
-[03/01 10:43:18 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073700.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0073700_demo', video_input=None, webcam=False)
-[03/01 10:43:19 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:19 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:23 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073700.png: detected 2 instances in 3.71s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.76s/it]100%|██████████| 1/1 [00:03<00:00,  3.76s/it]
-[03/01 10:43:28 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060268.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060268_demo', video_input=None, webcam=False)
-[03/01 10:43:29 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:29 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:34 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060268.png: detected 2 instances in 3.91s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.96s/it]100%|██████████| 1/1 [00:03<00:00,  3.96s/it]
-[03/01 10:43:38 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060126.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060126_demo', video_input=None, webcam=False)
-[03/01 10:43:39 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:39 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:43 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060126.png: detected 2 instances in 3.54s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.59s/it]100%|██████████| 1/1 [00:03<00:00,  3.59s/it]
-[03/01 10:43:47 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071100.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0071100_demo', video_input=None, webcam=False)
-[03/01 10:43:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:43:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071100.png: detected 2 instances in 3.67s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.72s/it]100%|██████████| 1/1 [00:03<00:00,  3.72s/it]
-[03/01 10:43:57 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060730.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060730_demo', video_input=None, webcam=False)
-[03/01 10:43:58 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:43:58 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:03 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060730.png: detected 2 instances in 3.43s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.48s/it]100%|██████████| 1/1 [00:03<00:00,  3.48s/it]
-[03/01 10:44:07 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071600.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0071600_demo', video_input=None, webcam=False)
-[03/01 10:44:08 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:08 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:12 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071600.png: detected 2 instances in 3.54s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.58s/it]100%|██████████| 1/1 [00:03<00:00,  3.58s/it]
-[03/01 10:44:17 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081668.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0081668_demo', video_input=None, webcam=False)
-[03/01 10:44:18 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:18 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:23 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081668.png: detected 2 instances in 4.02s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.07s/it]100%|██████████| 1/1 [00:04<00:00,  4.07s/it]
-[03/01 10:44:27 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060101.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060101_demo', video_input=None, webcam=False)
-[03/01 10:44:28 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:28 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:33 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060101.png: detected 2 instances in 3.68s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.74s/it]100%|██████████| 1/1 [00:03<00:00,  3.74s/it]
-[03/01 10:44:37 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073355.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0073355_demo', video_input=None, webcam=False)
-[03/01 10:44:38 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:38 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:43 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073355.png: detected 2 instances in 4.18s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.23s/it]100%|██████████| 1/1 [00:04<00:00,  4.23s/it]
-[03/01 10:44:47 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060129.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060129_demo', video_input=None, webcam=False)
-[03/01 10:44:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:44:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060129.png: detected 2 instances in 3.62s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.67s/it]100%|██████████| 1/1 [00:03<00:00,  3.67s/it]
-[03/01 10:44:57 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078000.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0078000_demo', video_input=None, webcam=False)
-[03/01 10:44:58 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:44:58 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:03 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078000.png: detected 2 instances in 3.95s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  4.00s/it]100%|██████████| 1/1 [00:03<00:00,  4.00s/it]
-[03/01 10:45:07 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078300.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0078300_demo', video_input=None, webcam=False)
-[03/01 10:45:09 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:09 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:13 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078300.png: detected 2 instances in 3.59s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.63s/it]100%|██████████| 1/1 [00:03<00:00,  3.63s/it]
-[03/01 10:45:17 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0080652.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0080652_demo', video_input=None, webcam=False)
-[03/01 10:45:18 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:18 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:22 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0080652.png: detected 2 instances in 3.91s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.94s/it]100%|██████████| 1/1 [00:03<00:00,  3.94s/it]
-[03/01 10:45:27 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081980.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0081980_demo', video_input=None, webcam=False)
-[03/01 10:45:28 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:28 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:32 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081980.png: detected 2 instances in 3.86s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.90s/it]100%|██████████| 1/1 [00:03<00:00,  3.90s/it]
-[03/01 10:45:36 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078702.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0078702_demo', video_input=None, webcam=False)
-[03/01 10:45:37 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:37 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:43 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078702.png: detected 2 instances in 4.41s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.45s/it]100%|██████████| 1/1 [00:04<00:00,  4.45s/it]
-[03/01 10:45:46 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071852.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0071852_demo', video_input=None, webcam=False)
-[03/01 10:45:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:45:52 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071852.png: detected 2 instances in 3.86s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.90s/it]100%|██████████| 1/1 [00:03<00:00,  3.91s/it]
-[03/01 10:45:56 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0083500.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0083500_demo', video_input=None, webcam=False)
-[03/01 10:45:58 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:45:58 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:02 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0083500.png: detected 2 instances in 3.71s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.77s/it]100%|██████████| 1/1 [00:03<00:00,  3.77s/it]
-[03/01 10:46:06 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060365.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0060365_demo', video_input=None, webcam=False)
-[03/01 10:46:07 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:07 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:12 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060365.png: detected 2 instances in 3.95s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.98s/it]100%|██████████| 1/1 [00:03<00:00,  3.98s/it]
-[03/01 10:46:16 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097801.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0097801_demo', video_input=None, webcam=False)
-[03/01 10:46:18 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:18 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:23 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097801.png: detected 2 instances in 3.93s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.99s/it]100%|██████████| 1/1 [00:03<00:00,  3.99s/it]
-[03/01 10:46:27 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0021500.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0021500_demo', video_input=None, webcam=False)
-[03/01 10:46:28 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:28 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:34 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0021500.png: detected 2 instances in 4.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.30s/it]100%|██████████| 1/1 [00:04<00:00,  4.30s/it]
-[03/01 10:46:38 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0059998.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0059998_demo', video_input=None, webcam=False)
-[03/01 10:46:39 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:39 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:44 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0059998.png: detected 2 instances in 4.37s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.41s/it]100%|██████████| 1/1 [00:04<00:00,  4.41s/it]
-[03/01 10:46:48 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0096906.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0096906_demo', video_input=None, webcam=False)
-[03/01 10:46:49 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:49 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:46:54 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0096906.png: detected 2 instances in 3.94s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.98s/it]100%|██████████| 1/1 [00:03<00:00,  3.98s/it]
-[03/01 10:46:58 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097006.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/ours/grey0097006_demo', video_input=None, webcam=False)
-[03/01 10:46:59 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-[03/01 10:46:59 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_ws5_f0.5_ol0.3/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:47:03 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097006.png: detected 2 instances in 3.69s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.76s/it]100%|██████████| 1/1 [00:03<00:00,  3.76s/it]
-[03/01 10:49:47 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0012100.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0012100_demo', video_input=None, webcam=False)
-[03/01 10:49:49 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:49:49 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:49:55 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0012100.png: detected 2 instances in 3.42s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.49s/it]100%|██████████| 1/1 [00:03<00:00,  3.49s/it]
-[03/01 10:49:59 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0070586.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0070586_demo', video_input=None, webcam=False)
-[03/01 10:50:00 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:50:00 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:50:06 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0070586.png: detected 2 instances in 4.74s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.76s/it]100%|██████████| 1/1 [00:04<00:00,  4.76s/it]
-[03/01 10:50:10 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073700.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0073700_demo', video_input=None, webcam=False)
-[03/01 10:50:12 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:50:12 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:50:18 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073700.png: detected 2 instances in 5.06s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.11s/it]100%|██████████| 1/1 [00:05<00:00,  5.11s/it]
-[03/01 10:50:23 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060268.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060268_demo', video_input=None, webcam=False)
-[03/01 10:50:24 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:50:24 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:50:29 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060268.png: detected 2 instances in 4.13s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.18s/it]100%|██████████| 1/1 [00:04<00:00,  4.19s/it]
-[03/01 10:50:34 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060126.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060126_demo', video_input=None, webcam=False)
-[03/01 10:50:35 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:50:35 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:50:41 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060126.png: detected 2 instances in 4.42s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.47s/it]100%|██████████| 1/1 [00:04<00:00,  4.47s/it]
-[03/01 10:50:46 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071100.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0071100_demo', video_input=None, webcam=False)
-[03/01 10:50:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:50:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:50:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071100.png: detected 2 instances in 4.94s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.97s/it]100%|██████████| 1/1 [00:04<00:00,  4.97s/it]
-[03/01 10:50:58 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060730.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060730_demo', video_input=None, webcam=False)
-[03/01 10:51:00 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:00 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:51:06 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060730.png: detected 2 instances in 4.55s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.60s/it]100%|██████████| 1/1 [00:04<00:00,  4.60s/it]
-[03/01 10:51:11 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071600.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0071600_demo', video_input=None, webcam=False)
-[03/01 10:51:12 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:12 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:51:18 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071600.png: detected 2 instances in 4.65s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.68s/it]100%|██████████| 1/1 [00:04<00:00,  4.68s/it]
-[03/01 10:51:22 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081668.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0081668_demo', video_input=None, webcam=False)
-[03/01 10:51:24 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:24 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:51:29 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081668.png: detected 2 instances in 4.46s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.49s/it]100%|██████████| 1/1 [00:04<00:00,  4.49s/it]
-[03/01 10:51:34 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060101.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060101_demo', video_input=None, webcam=False)
-[03/01 10:51:35 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:35 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:51:41 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060101.png: detected 2 instances in 4.28s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.33s/it]100%|██████████| 1/1 [00:04<00:00,  4.33s/it]
-[03/01 10:51:45 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073355.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0073355_demo', video_input=None, webcam=False)
-[03/01 10:51:47 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:47 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:51:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0073355.png: detected 2 instances in 4.89s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.94s/it]100%|██████████| 1/1 [00:04<00:00,  4.94s/it]
-[03/01 10:51:58 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060129.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060129_demo', video_input=None, webcam=False)
-[03/01 10:51:59 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:51:59 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:52:05 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060129.png: detected 2 instances in 4.19s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.25s/it]100%|██████████| 1/1 [00:04<00:00,  4.25s/it]
-[03/01 10:52:14 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078000.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0078000_demo', video_input=None, webcam=False)
-[03/01 10:52:15 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:52:15 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:52:21 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078000.png: detected 2 instances in 4.60s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.63s/it]100%|██████████| 1/1 [00:04<00:00,  4.63s/it]
-[03/01 10:52:39 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078300.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0078300_demo', video_input=None, webcam=False)
-[03/01 10:52:40 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:52:40 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:52:46 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078300.png: detected 2 instances in 4.48s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.51s/it]100%|██████████| 1/1 [00:04<00:00,  4.51s/it]
-[03/01 10:52:50 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0080652.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0080652_demo', video_input=None, webcam=False)
-[03/01 10:52:52 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:52:52 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:52:57 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0080652.png: detected 2 instances in 4.41s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.46s/it]100%|██████████| 1/1 [00:04<00:00,  4.46s/it]
-[03/01 10:53:02 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081980.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0081980_demo', video_input=None, webcam=False)
-[03/01 10:53:03 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:03 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:53:09 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0081980.png: detected 2 instances in 4.49s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.52s/it]100%|██████████| 1/1 [00:04<00:00,  4.52s/it]
-[03/01 10:53:13 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078702.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0078702_demo', video_input=None, webcam=False)
-[03/01 10:53:14 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:14 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:53:20 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0078702.png: detected 2 instances in 4.56s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.61s/it]100%|██████████| 1/1 [00:04<00:00,  4.61s/it]
-[03/01 10:53:24 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071852.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0071852_demo', video_input=None, webcam=False)
-[03/01 10:53:26 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:26 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:53:32 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0071852.png: detected 2 instances in 4.56s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.61s/it]100%|██████████| 1/1 [00:04<00:00,  4.61s/it]
-[03/01 10:53:36 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0083500.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0083500_demo', video_input=None, webcam=False)
-[03/01 10:53:37 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:37 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:53:42 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0083500.png: detected 2 instances in 4.31s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.34s/it]100%|██████████| 1/1 [00:04<00:00,  4.34s/it]
-[03/01 10:53:47 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060365.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0060365_demo', video_input=None, webcam=False)
-[03/01 10:53:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:53:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0060365.png: detected 2 instances in 4.06s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.10s/it]100%|██████████| 1/1 [00:04<00:00,  4.10s/it]
-[03/01 10:53:57 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097801.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0097801_demo', video_input=None, webcam=False)
-[03/01 10:53:59 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:53:59 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:54:05 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097801.png: detected 2 instances in 4.71s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.78s/it]100%|██████████| 1/1 [00:04<00:00,  4.78s/it]
-[03/01 10:54:18 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0021500.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0021500_demo', video_input=None, webcam=False)
-[03/01 10:54:19 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:54:19 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:54:25 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0021500.png: detected 2 instances in 4.88s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.97s/it]100%|██████████| 1/1 [00:04<00:00,  4.97s/it]
-[03/01 10:54:35 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0059998.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0059998_demo', video_input=None, webcam=False)
-[03/01 10:54:37 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:54:37 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:54:41 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0059998.png: detected 2 instances in 3.96s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.00s/it]100%|██████████| 1/1 [00:04<00:00,  4.00s/it]
-[03/01 10:54:45 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0096906.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0096906_demo', video_input=None, webcam=False)
-[03/01 10:54:47 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:54:47 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:54:52 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0096906.png: detected 2 instances in 4.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.27s/it]100%|██████████| 1/1 [00:04<00:00,  4.28s/it]
-[03/01 10:54:57 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097006.png'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/chrom/mask101/grey0097006_demo', video_input=None, webcam=False)
-[03/01 10:54:58 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-[03/01 10:54:58 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/chrom_mask101/model_0010999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 10:55:04 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/Chromosome/test/grey0097006.png: detected 2 instances in 4.78s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.81s/it]100%|██████████| 1/1 [00:04<00:00,  4.81s/it]
-[03/01 17:32:42 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster4.bmp_demo', video_input=None, webcam=False)
-[03/01 17:32:44 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 17:32:44 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 17:32:54 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg: detected 25 instances in 7.89s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-  0%|          | 0/1 [00:08<?, ?it/s]
-Traceback (most recent call last):
-  File "demo.py", line 132, in <module>
-    visualized_output.save(out_filename)
-  File "/work/home/acvwd4uw3y181/rsliu/detectron2/detectron2/utils/visualizer.py", line 308, in save
-    self.fig.savefig(filepath)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/figure.py", line 3343, in savefig
-    self.canvas.print_figure(fname, **kwargs)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2313, in print_figure
-    with cbook._setattr_cm(self, manager=None), \
-  File "/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/contextlib.py", line 113, in __enter__
-    return next(self.gen)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2220, in _switch_canvas_and_return_print_method
-    raise ValueError(
-ValueError: Format 'bmp_demo' is not supported (supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff, webp)
-Traceback (most recent call last):
-  File "demo_dataset.py", line 19, in <module>
-    subprocess.check_call(command, shell=True)
-  File "/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/subprocess.py", line 364, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command 'python demo.py --config-file /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml --input /work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg  --output /work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster4.bmp_demo --opts MODEL.WEIGHTS /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth MODEL.DEVICE cpu' returned non-zero exit status 1.
-[03/01 19:08:44 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster4.bmp_demo', video_input=None, webcam=False)
-[03/01 19:08:46 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:08:46 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:09:04 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg: detected 25 instances in 15.27s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-  0%|          | 0/1 [00:15<?, ?it/s]
-Traceback (most recent call last):
-  File "demo.py", line 132, in <module>
-    visualized_output.save(out_filename)
-  File "/work/home/acvwd4uw3y181/rsliu/detectron2/detectron2/utils/visualizer.py", line 308, in save
-    self.fig.savefig(filepath)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/figure.py", line 3343, in savefig
-    self.canvas.print_figure(fname, **kwargs)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2313, in print_figure
-    with cbook._setattr_cm(self, manager=None), \
-  File "/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/contextlib.py", line 113, in __enter__
-    return next(self.gen)
-  File "/work/home/acvwd4uw3y181/.local/lib/python3.8/site-packages/matplotlib/backend_bases.py", line 2220, in _switch_canvas_and_return_print_method
-    raise ValueError(
-ValueError: Format 'bmp_demo' is not supported (supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff, webp)
-Traceback (most recent call last):
-  File "demo_dataset.py", line 19, in <module>
-    subprocess.check_call(command, shell=True)
-  File "/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/subprocess.py", line 364, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command 'python demo.py --config-file /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml --input /work/home/acvwd4uw3y181/rsliu/data000/cluster_nuclei/test/cluster4.bmp.jpg  --output /work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster4.bmp_demo --opts MODEL.WEIGHTS /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth MODEL.DEVICE cpu' returned non-zero exit status 1.
-[03/01 19:13:29 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster4_demo', video_input=None, webcam=False)
-[03/01 19:13:30 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:13:30 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:13:35 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg: detected 25 instances in 4.19s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.41s/it]100%|██████████| 1/1 [00:04<00:00,  4.41s/it]
-[03/01 19:13:41 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster17_demo', video_input=None, webcam=False)
-[03/01 19:13:42 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:13:42 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:13:47 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg: detected 29 instances in 3.53s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.62s/it]100%|██████████| 1/1 [00:03<00:00,  3.62s/it]
-[03/01 19:13:51 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster19_demo', video_input=None, webcam=False)
-[03/01 19:13:52 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:13:52 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:13:57 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg: detected 34 instances in 3.68s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.76s/it]100%|██████████| 1/1 [00:03<00:00,  3.76s/it]
-[03/01 19:14:01 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster40_demo', video_input=None, webcam=False)
-[03/01 19:14:02 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:02 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:06 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg: detected 21 instances in 3.54s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.62s/it]100%|██████████| 1/1 [00:03<00:00,  3.62s/it]
-[03/01 19:14:11 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster30_demo', video_input=None, webcam=False)
-[03/01 19:14:12 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:12 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:16 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg: detected 25 instances in 3.42s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.49s/it]100%|██████████| 1/1 [00:03<00:00,  3.49s/it]
-[03/01 19:14:20 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster13_demo', video_input=None, webcam=False)
-[03/01 19:14:21 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:21 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:26 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg: detected 20 instances in 3.55s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.62s/it]100%|██████████| 1/1 [00:03<00:00,  3.62s/it]
-[03/01 19:14:30 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster31_demo', video_input=None, webcam=False)
-[03/01 19:14:31 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:31 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:35 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg: detected 27 instances in 3.44s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.51s/it]100%|██████████| 1/1 [00:03<00:00,  3.51s/it]
-[03/01 19:14:39 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster37_demo', video_input=None, webcam=False)
-[03/01 19:14:40 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:40 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:44 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg: detected 19 instances in 3.96s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.04s/it]100%|██████████| 1/1 [00:04<00:00,  4.04s/it]
-[03/01 19:14:48 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster38_demo', video_input=None, webcam=False)
-[03/01 19:14:49 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:49 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:14:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg: detected 20 instances in 3.38s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.45s/it]100%|██████████| 1/1 [00:03<00:00,  3.45s/it]
-[03/01 19:14:57 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster43_demo', video_input=None, webcam=False)
-[03/01 19:14:58 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:14:58 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:15:02 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg: detected 42 instances in 3.78s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.89s/it]100%|██████████| 1/1 [00:03<00:00,  3.89s/it]
-[03/01 19:15:06 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask50/cluster44_demo', video_input=None, webcam=False)
-[03/01 19:15:07 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-[03/01 19:15:07 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask50/model_0015999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:15:12 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg: detected 18 instances in 3.62s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.69s/it]100%|██████████| 1/1 [00:03<00:00,  3.69s/it]
-[03/01 19:17:45 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster4_demo', video_input=None, webcam=False)
-[03/01 19:17:47 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:17:47 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:17:54 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg: detected 22 instances in 4.87s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.96s/it]100%|██████████| 1/1 [00:04<00:00,  4.96s/it]
-[03/01 19:17:58 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster17_demo', video_input=None, webcam=False)
-[03/01 19:18:00 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:00 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:18:05 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg: detected 21 instances in 4.28s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.33s/it]100%|██████████| 1/1 [00:04<00:00,  4.33s/it]
-[03/01 19:18:09 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster19_demo', video_input=None, webcam=False)
-[03/01 19:18:11 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:11 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:18:16 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg: detected 28 instances in 4.40s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.45s/it]100%|██████████| 1/1 [00:04<00:00,  4.45s/it]
-[03/01 19:18:21 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster40_demo', video_input=None, webcam=False)
-[03/01 19:18:22 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:22 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:18:28 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg: detected 20 instances in 4.53s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.60s/it]100%|██████████| 1/1 [00:04<00:00,  4.60s/it]
-[03/01 19:18:32 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster30_demo', video_input=None, webcam=False)
-[03/01 19:18:34 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:34 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:18:40 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg: detected 26 instances in 5.01s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.06s/it]100%|██████████| 1/1 [00:05<00:00,  5.06s/it]
-[03/01 19:18:44 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster13_demo', video_input=None, webcam=False)
-[03/01 19:18:46 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:46 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:18:51 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg: detected 19 instances in 4.34s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.39s/it]100%|██████████| 1/1 [00:04<00:00,  4.39s/it]
-[03/01 19:18:55 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster31_demo', video_input=None, webcam=False)
-[03/01 19:18:56 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:18:56 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:19:02 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg: detected 24 instances in 4.57s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.62s/it]100%|██████████| 1/1 [00:04<00:00,  4.63s/it]
-[03/01 19:19:06 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster37_demo', video_input=None, webcam=False)
-[03/01 19:19:08 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:19:08 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:19:13 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg: detected 17 instances in 4.27s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.32s/it]100%|██████████| 1/1 [00:04<00:00,  4.32s/it]
-[03/01 19:19:17 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster38_demo', video_input=None, webcam=False)
-[03/01 19:19:18 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:19:18 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:19:24 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg: detected 18 instances in 3.87s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:03<00:00,  3.93s/it]100%|██████████| 1/1 [00:03<00:00,  3.93s/it]
-[03/01 19:19:28 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster43_demo', video_input=None, webcam=False)
-[03/01 19:19:30 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:19:30 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:19:35 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg: detected 40 instances in 4.60s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.66s/it]100%|██████████| 1/1 [00:04<00:00,  4.66s/it]
-[03/01 19:19:39 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/mask101/cluster44_demo', video_input=None, webcam=False)
-[03/01 19:19:41 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-[03/01 19:19:41 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_mask101/model_0016999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:19:46 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg: detected 13 instances in 4.31s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.36s/it]100%|██████████| 1/1 [00:04<00:00,  4.36s/it]
-[03/01 19:23:00 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster4_demo', video_input=None, webcam=False)
-Traceback (most recent call last):
-  File "demo.py", line 102, in <module>
-    cfg = setup_cfg(args)
-  File "demo.py", line 31, in setup_cfg
-    cfg.merge_from_file(args.config_file)
-  File "/work/home/acvwd4uw3y181/rsliu/detectron2/detectron2/config/config.py", line 45, in merge_from_file
-    assert PathManager.isfile(cfg_filename), f"Config file '{cfg_filename}' does not exist!"
-AssertionError: Config file '/work/home/acvwd4uw3y181/rsliu/exp_used/cas/config.yaml' does not exist!
-Traceback (most recent call last):
-  File "demo_dataset.py", line 20, in <module>
-    subprocess.check_call(command, shell=True)
-  File "/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/subprocess.py", line 364, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command 'python demo.py --config-file /work/home/acvwd4uw3y181/rsliu/exp_used/cas/config.yaml --input /work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg  --output /work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster4_demo --opts MODEL.WEIGHTS /work/home/acvwd4uw3y181/rsliu/exp_used/cas/model_0005999.pth MODEL.DEVICE cpu' returned non-zero exit status 1.
-[03/01 19:32:32 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster4_demo', video_input=None, webcam=False)
-[03/01 19:32:34 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:32:34 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:32:42 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg: detected 23 instances in 5.49s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.57s/it]100%|██████████| 1/1 [00:05<00:00,  5.57s/it]
-[03/01 19:32:46 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster17_demo', video_input=None, webcam=False)
-[03/01 19:32:47 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:32:47 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:32:54 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg: detected 26 instances in 6.14s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:06<00:00,  6.19s/it]100%|██████████| 1/1 [00:06<00:00,  6.19s/it]
-[03/01 19:32:59 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster19_demo', video_input=None, webcam=False)
-[03/01 19:33:01 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:33:01 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:33:07 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg: detected 34 instances in 5.64s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.73s/it]100%|██████████| 1/1 [00:05<00:00,  5.73s/it]
-[03/01 19:33:11 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster40_demo', video_input=None, webcam=False)
-[03/01 19:33:13 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:33:13 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:33:20 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg: detected 21 instances in 5.90s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  6.00s/it]100%|██████████| 1/1 [00:05<00:00,  6.00s/it]
-[03/01 19:33:24 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster30_demo', video_input=None, webcam=False)
-[03/01 19:33:25 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:33:25 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:33:32 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg: detected 27 instances in 5.70s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.75s/it]100%|██████████| 1/1 [00:05<00:00,  5.75s/it]
-[03/01 19:33:36 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster13_demo', video_input=None, webcam=False)
-[03/01 19:33:38 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:33:38 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:33:44 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg: detected 21 instances in 5.44s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.49s/it]100%|██████████| 1/1 [00:05<00:00,  5.50s/it]
-[03/01 19:33:48 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster31_demo', video_input=None, webcam=False)
-[03/01 19:33:50 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:33:50 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:33:57 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg: detected 23 instances in 6.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:06<00:00,  6.32s/it]100%|██████████| 1/1 [00:06<00:00,  6.32s/it]
-[03/01 19:34:02 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster37_demo', video_input=None, webcam=False)
-[03/01 19:34:03 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:34:03 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:34:11 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg: detected 18 instances in 6.12s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:06<00:00,  6.17s/it]100%|██████████| 1/1 [00:06<00:00,  6.17s/it]
-[03/01 19:34:14 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster38_demo', video_input=None, webcam=False)
-[03/01 19:34:16 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:34:16 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:34:22 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg: detected 19 instances in 5.29s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.33s/it]100%|██████████| 1/1 [00:05<00:00,  5.34s/it]
-[03/01 19:34:26 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster43_demo', video_input=None, webcam=False)
-[03/01 19:34:27 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:34:27 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:34:34 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg: detected 39 instances in 6.05s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:06<00:00,  6.13s/it]100%|██████████| 1/1 [00:06<00:00,  6.13s/it]
-[03/01 19:34:38 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/cas/cluster44_demo', video_input=None, webcam=False)
-[03/01 19:34:39 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-[03/01 19:34:39 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_cas/model_0005999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:34:46 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg: detected 15 instances in 5.93s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.98s/it]100%|██████████| 1/1 [00:05<00:00,  5.98s/it]
-[03/01 19:35:33 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster4_demo', video_input=None, webcam=False)
-[03/01 19:35:34 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:35:34 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:35:40 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster4.jpg: detected 23 instances in 3.99s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.06s/it]100%|██████████| 1/1 [00:04<00:00,  4.06s/it]
-[03/01 19:35:45 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster17_demo', video_input=None, webcam=False)
-[03/01 19:35:46 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:35:46 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:35:51 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster17.jpg: detected 27 instances in 4.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.30s/it]100%|██████████| 1/1 [00:04<00:00,  4.30s/it]
-[03/01 19:35:55 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster19_demo', video_input=None, webcam=False)
-[03/01 19:35:56 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:35:56 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:02 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster19.jpg: detected 35 instances in 4.98s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:05<00:00,  5.07s/it]100%|██████████| 1/1 [00:05<00:00,  5.07s/it]
-[03/01 19:36:06 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster40_demo', video_input=None, webcam=False)
-[03/01 19:36:08 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:08 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:13 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster40.jpg: detected 19 instances in 4.06s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.11s/it]100%|██████████| 1/1 [00:04<00:00,  4.11s/it]
-[03/01 19:36:16 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster30_demo', video_input=None, webcam=False)
-[03/01 19:36:18 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:18 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:22 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster30.jpg: detected 27 instances in 4.06s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.11s/it]100%|██████████| 1/1 [00:04<00:00,  4.11s/it]
-[03/01 19:36:26 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster13_demo', video_input=None, webcam=False)
-[03/01 19:36:27 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:27 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:32 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster13.jpg: detected 21 instances in 4.21s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.28s/it]100%|██████████| 1/1 [00:04<00:00,  4.28s/it]
-[03/01 19:36:36 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster31_demo', video_input=None, webcam=False)
-[03/01 19:36:38 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:38 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:43 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster31.jpg: detected 26 instances in 4.58s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.68s/it]100%|██████████| 1/1 [00:04<00:00,  4.68s/it]
-[03/01 19:36:47 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster37_demo', video_input=None, webcam=False)
-[03/01 19:36:48 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:48 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:36:53 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster37.jpg: detected 18 instances in 4.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.30s/it]100%|██████████| 1/1 [00:04<00:00,  4.30s/it]
-[03/01 19:36:58 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster38_demo', video_input=None, webcam=False)
-[03/01 19:36:59 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:36:59 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:37:04 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster38.jpg: detected 23 instances in 4.25s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.34s/it]100%|██████████| 1/1 [00:04<00:00,  4.34s/it]
-[03/01 19:37:08 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster43_demo', video_input=None, webcam=False)
-[03/01 19:37:09 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:37:09 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:37:14 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster43.jpg: detected 42 instances in 4.33s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.39s/it]100%|██████████| 1/1 [00:04<00:00,  4.39s/it]
-[03/01 19:37:18 detectron2]: Arguments: Namespace(confidence_threshold=0.5, config_file='/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/config.yaml', input=['/work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg'], opts=['MODEL.WEIGHTS', '/work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth', 'MODEL.DEVICE', 'cpu'], output='/work/home/acvwd4uw3y181/rsliu/picture/nuclei/ours/cluster44_demo', video_input=None, webcam=False)
-[03/01 19:37:20 d2.checkpoint.detection_checkpoint]: [DetectionCheckpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-[03/01 19:37:20 fvcore.common.checkpoint]: [Checkpointer] Loading from /work/home/acvwd4uw3y181/rsliu/exp_used/CN_ws8_f0.8_ol0.1/model_0006999.pth ...
-  0%|          | 0/1 [00:00<?, ?it/s][03/01 19:37:24 detectron2]: /work/home/acvwd4uw3y181/rsliu/data000/test/cluster44.jpg: detected 17 instances in 3.97s
-/work/home/acvwd4uw3y181/rsliu/anaconda3/envs/env6/lib/python3.8/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755903507/work/aten/src/ATen/native/TensorShape.cpp:2228.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
-100%|██████████| 1/1 [00:04<00:00,  4.02s/it]100%|██████████| 1/1 [00:04<00:00,  4.02s/it]

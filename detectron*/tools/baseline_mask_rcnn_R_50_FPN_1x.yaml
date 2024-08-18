@@ -1,9 +1,0 @@
-_BASE_: "/work/home/acvwd4uw3y181/rsliu/detectron2/tools/Baseline-RCNN-FPN.yaml"
-MODEL:
-  WEIGHTS: "/work/home/acvwd4uw3y181/rsliu/detectron2/tools/R-50.pkl"
-  MASK_ON: True
-  RESNETS:
-    DEPTH: 50
-  ROI_HEADS:
-    NUM_CLASSES: 2
-LOAD_FROM: None

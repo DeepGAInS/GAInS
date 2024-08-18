@@ -1,0 +1,13 @@
+_BASE_: "/work/home/acvwd4uw3y181/rsliu/detectron2/tools/Baseline-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "/work/home/acvwd4uw3y181/rsliu/detectron2/tools/R-50.pkl"
+  MASK_ON: True
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    NAME: CascadeROIHeads
+    NUM_CLASSES: 1
+  ROI_BOX_HEAD:
+    CLS_AGNOSTIC_BBOX_REG: True
+  RPN:
+    POST_NMS_TOPK_TRAIN: 2000
