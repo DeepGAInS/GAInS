@@ -156,8 +156,8 @@ For convenience, the three datasets are collected in the Google Drive folders li
 - ['cluster_nuclei' subset of Kaggle2018](https://drive.google.com/drive/folders/1o_VoeV7Ip_jLbRCeRkaMgPzTx_XnceOO?usp=sharing)
 
 **Note:**  
-1. For UOUC and Kaggle2018, the train, validation, and testing sets are divided by a ratio of 6:2:2 with random seeds. 
-2. We use the 'cluster_nuclei' subset of Kaggle2018 in the paper.
+1. For ISBI2014, we follow the offical division of training, validation and testing. For UOUC and Kaggle2018, the training, validation, and testing sets are divided by a ratio of 6:2:2 with random seeds. 
+2. We use the 'cluster_nuclei' subset of Kaggle2018 in the paper. If needed, please download the whole Kaggle2018 dataset from its offical website.
 
 ## Installation
 
