@@ -160,5 +160,11 @@ For convenience, the three datasets are collected in the Google Drive folders li
 2. We use the 'cluster_nuclei' subset of Kaggle2018 in the paper. If needed, please download the whole Kaggle2018 dataset from its offical website.
 
 ## Installation
+For detectron2 installation instructions, please refer to the [Detectron2 Installation Guide](detectron2/INSTALL.md). After installing Detectron2, the data preprocessing needs further libraries such as scipy, matpoltlib, shapely. We recommand using conda or pip install.
+``` bash
+pip install scipy
+pip install matpoltlib
+pip install shapely
+``` 
 
 ## QuickStart
