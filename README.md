@@ -8,3 +8,5 @@ In this work, we propose a **G**radient **A**nomaly-aware Biomedical **In**stanc
 Extensive comparisons and ablation experiments in three biomedical scenarios demonstrate that our proposed GAInS outperforms other state-of-the-art (SOTA) instance segmentation methods.
 ### Overview
 ![Overview of the proposed GAInS.](overview_fig.png)
+### Qualitative Result
+![Qualitative Result of our GAInS and other SOTA methods.](visualization.png)
