@@ -149,7 +149,7 @@ Extensive comparisons and ablation experiments in three biomedical scenarios dem
   </tbody>
 </table>
 
-### Dataset
+## Dataset
 For convenience, the three datasets are collected in the Google Drive folders listed below. One can downloaded directly from Google Drive or from the official websites. 
 - [ISBI2014](https://drive.google.com/drive/folders/1a3_Gc4synvTUrP593L6C05II3_YK2CeP?usp=sharing)
 - [UOUC](https://drive.google.com/drive/folders/192ippUdETwGp9Wrowt3oCGU_wAALN8_E?usp=sharing)
@@ -168,3 +168,68 @@ pip install shapely
 ``` 
 
 ## QuickStart
+### Data Preprocessing
+Data preprocessing is for Gradient Anomaly Map generation. Datasets like ISBI2014 where one image contains small amount of instances and faces overlapping issues, are recommonded using ```isbi_process.py```. For nuclei datasets where one image contains huge amount of instances and faces touching issues, we recommend using```nuclei_process.py```. For chromosomes which face crossing issues, we recommend using ```chrom_process.py```. The reasons they are treated differently are all about running time and a few special cases (as mentioned in the paper). 
+
+To process, set the path of your own dataset at line 29-30 of ```isbi_process.py```, ```nuclei_process.py``` or ```chrom_process.py```. The json file requires COCO json format.
+To set up hyperparameters, set ```window_size```, ```GA_factor``` and ```overlap_HL``` to proper values at line 32-34. Empirically, ```window_size``` could be set at a value of 1/20 to 1/10 of the size of an instance in the images. GA_factor is the attention rate you want to put on CTO regions, empirically in a proper interval [0.5, 2]. For ```overlap_HL```, the highlight of overlapping regions, empirically a small number is enoug h, such as 0.1 or 0.5. 
+
+Here we provid our parameters for reference.
+-  ISBI2014: window_size = 5, GA_facor = 0.5, overlap_HL = 0.1
+-  UOUC: window_size = 5, GA_factor = 0.5, overlap_HL = 0.3
+-  Kaggle2018: window_size = 8, GA_factor = 0.8, overlap_HL = 0.1
+
+Additionally, set the ```target_id``` at line 40. It is the instance ID in your dataset json file. For example, the id of the cells in ISBI2014 is 0.
+
+After setting up all the parameters, one can run the scripts. For example, 
+``` bash
+python isbi_process.py
+python nuclei_process.py
+python chrom_process.py
+```
+The data processing only requires CPU devices. The Gradient Anomaly Maps will be saved in the dataset folder. We also provided visualization functions in these three script. Visualize the Gradient Anomaly Maps if needed.
+
+### Train on Your Own Datasets
+This should be done after the preprocessing step. 
+
+To train on your own data, firstly register your datasets by adding the path of your datasets at ```detectron2/detectron2/data/datasets/builtin.py``` line 57. Secondly, fill in the meta information of your datasets at ```detectron2/detectron2/data/datasets/builtin_meta.py``` line 30. 
+
+Config file is at ```detectron2/tools/my_config.yaml```. Things you may change: 
+- Line 14, 16: Name of your datasets.
+- Line 220: Number of classes.
+- Line 224: Path to your Gradient Anomaly Maps.
+- Line 295: Pretrained model weight.
+- Line 296: Output directory.
+- Line 301: Learning rate.
+- Line 304: Checkpoint period.
+- Line 311: Batch size.
+- Line 313: Maximum number of iteration.
+- Line 344: Test stage evaluation period.
+
+The training step requires GPUs. Use ```detectron2/tools/train_net.py``` for training and testing.
+
+Training is done by
+``` bash
+python train_net.py --config-file my_config.yaml
+```
+
+Test is done by
+``` bash
+python train_net.py --config-file my_config.yaml --eval-only MODEL.WEIGHTS /path/to/checkpoint_file
+```
+
+Use ```detectron2/demo/demo.py``` to visualize results.
+``` bash
+python demo.py --config-file /path/to/config-file --input /path/to/image --opts MODEL.WEIGHTS /path/to/checkpoint_file
+```
+
+## License
+
+## Citation
+
+## Acknowledgement
+
+## Question
+Feel free to email us if you have questions: 
+
+Runsheng Liu (rliuar@connect.ust.hk), Hao Jiang (hjiangaz@cse.ust.hk)
