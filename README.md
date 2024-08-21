@@ -224,16 +224,18 @@ python demo.py --config-file /path/to/config-file --input /path/to/image --opts 
 ```
 
 ### Our Models
-We provide our models, i.e. GAInS with R50 and R101 on three datasets, totally 6 models on [One Drive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rliuar_connect_ust_hk/EmUTQhTKlBlOt4fUy1Cs0fsBld607SLyXkf57JaZ5jBH7w?e=YDwcBA). One can use them as pre-trained models, or evaluate on the pre-trained if needed.
+We provide our models, i.e. GAInS with R50 and R101 on three datasets, totally 6 models on [One Drive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rliuar_connect_ust_hk/EmUTQhTKlBlOt4fUy1Cs0fsBld607SLyXkf57JaZ5jBH7w?e=YDwcBA). One can download them as pre-trained models, or evaluate on the pre-trained models if needed.
 
 **Note**
 The evaluation code rely on a modified pycoco package that provides a new function iouIntUni to compute intersection over union between masks, return iou, intersection, union together. For installation of the modified pycoco package, please refer to https://github.com/Amandaynzhou/MMT-PSM.
 
 ## License
-
+Detectron2 is released under the [Apache 2.0 license](https://github.com/DeepDoNet/DoNet/blob/master/LICENSE).
 ## Citation
 
+
 ## Acknowledgement
+The code of GAInS is built on [detectron2](https://github.com/facebookresearch/detectron2) and [ORCNN](https://github.com/waiyulam/ORCNN), thanks for the Third Party Libs.
 
 ## Question
 Feel free to email us if you have questions: 
