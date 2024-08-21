@@ -198,9 +198,9 @@ Config file is at ```detectron2/tools/my_config.yaml```. Things you may change:
 - Line 14, 16: Name of your datasets.
 - Line 220: Number of classes.
 - Line 224: Path to your Gradient Anomaly Maps.
-- Line 295: Pretrained model weight.
+- Line 295: Path to pre-trained model weight.
 - Line 296: Output directory.
-- Line 301: Learning rate.
+- Line 301: Initial learning rate.
 - Line 304: Checkpoint period.
 - Line 311: Batch size.
 - Line 313: Maximum number of iteration.
