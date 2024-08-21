@@ -230,7 +230,8 @@ We provide our models, i.e. GAInS with R50 and R101 on three datasets, totally 6
 The evaluation code rely on a modified pycoco package that provides a new function iouIntUni to compute intersection over union between masks, return iou, intersection, union together. For installation of the modified pycoco package, please refer to https://github.com/Amandaynzhou/MMT-PSM.
 
 ## License
-Detectron2 is released under the [Apache 2.0 license](https://github.com/DeepDoNet/DoNet/blob/master/LICENSE).
+Detectron2 is released under the [Apache 2.0 license](LICENSE).
+
 ## Citation
 
 
@@ -238,6 +239,5 @@ Detectron2 is released under the [Apache 2.0 license](https://github.com/DeepDoN
 The code of GAInS is built on [detectron2](https://github.com/facebookresearch/detectron2) and [ORCNN](https://github.com/waiyulam/ORCNN), thanks for the Third Party Libs.
 
 ## Question
-Feel free to email us if you have questions: 
-
+Should you have any questions: 
 Runsheng Liu (rliuar@connect.ust.hk), Hao Jiang (hjiangaz@cse.ust.hk)
