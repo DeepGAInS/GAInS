@@ -223,6 +223,11 @@ Use ```detectron2/demo/demo.py``` to visualize results.
 python demo.py --config-file /path/to/config-file --input /path/to/image --opts MODEL.WEIGHTS /path/to/checkpoint_file
 ```
 
+### Our Models
+We provide our models, i.e. GAInS with R50 and R101 on three datasets, totally 6 models on [One Drive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rliuar_connect_ust_hk/EmUTQhTKlBlOt4fUy1Cs0fsBld607SLyXkf57JaZ5jBH7w?e=YDwcBA). One can use them as pre-trained models, or evaluate on the pre-trained if needed.
+**Note**
+The evaluation code rely on a modified pycoco package that provides a new function iouIntUni to compute intersection over union between masks, return iou, intersection, union together. For installation of the modified pycoco package, please refer to https://github.com/Amandaynzhou/MMT-PSM.
+
 ## License
 
 ## Citation
